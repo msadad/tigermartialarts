@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Tiger Martial Arts</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-lugx-gaming.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+
+  <style>
+    .schedule-section {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+    }
+
+    .schedule-section .section-heading h2 {
+      font-weight: 700;
+    }
+
+    .day-buttons .btn {
+      margin: 5px;
+    }
+
+    .table td, .table th {
+      vertical-align: middle;
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+ <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="https://i.postimg.cc/Z5jz7sVc/shotokan-tiger-karate-logo-emblem-black-on-red-sticker-removebg-preview.png" alt="" style="width: 158px;">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li><a href="index.html" class="active">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="martialarts.html">Martial Arts</a></li>
+                      <li><a href="classes.html">Classes</a></li>
+                      <li><a href="memberships.html">Memberships</a></li>
+                      <li><a href="contacts.html">Contact Us</a></li>
+                      <li><a href="instructors.html">Instructors</a></li>
+                      <li><a href="register.html">Login / Create Account</a></li>
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="caption header-text">
+            <h6> </h6>
+            <h2>Classes</h2>
+            
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-2">
+          <div class="right-image">
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Interactive Timetable -->
+  <section class="schedule-section">
+    <div class="container">
+      <div class="section-heading text-center mb-5">
+        <h2>Martial Arts Class Timetable</h2>
+        <p>Select a day to view that day's schedule.</p>
+      </div>
+
+      <div class="text-center mb-4 day-buttons">
+        <button class="btn btn-outline-dark" onclick="showDay('monday')">Monday</button>
+        <button class="btn btn-outline-dark" onclick="showDay('tuesday')">Tuesday</button>
+        <button class="btn btn-outline-dark" onclick="showDay('wednesday')">Wednesday</button>
+        <button class="btn btn-outline-dark" onclick="showDay('thursday')">Thursday</button>
+        <button class="btn btn-outline-dark" onclick="showDay('friday')">Friday</button>
+        <button class="btn btn-outline-dark" onclick="showDay('saturday')">Saturday</button>
+        <button class="btn btn-outline-dark" onclick="showDay('sunday')">Sunday</button>
+      </div>
+
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead class="table-dark">
+            <tr>
+              <th>Time</th>
+              <th id="day-header">Day</th>
+            </tr>
+          </thead>
+          <tbody id="timetable-body">
+            <!-- JS will populate this -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="section cta">
+    <div class="container">
+      <div class="row">
+        <!-- Call to Action Content -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="bg-dark text-light pt-5 pb-5 mt-5" style="padding-bottom: 100px;">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-12">
+        <img src="https://i.postimg.cc/Z5jz7sVc/shotokan-tiger-karate-logo-emblem-black-on-red-sticker-removebg-preview.png" alt="Tiger Martial Arts Logo" style="width: 80px; margin-bottom: 15px;">
+        <p class="mb-3">Tiger Martial Arts Academy, Al Barsha 1, Dubai, UAE</p>
+        <div class="mb-3">
+          <a href="https://www.instagram.com/" target="_blank" style="color: #fff; margin: 0 10px;"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/" target="_blank" style="color: #fff; margin: 0 10px;"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://wa.me/971XXXXXXXXX" target="_blank" style="color: #fff; margin: 0 10px;"><i class="fab fa-whatsapp"></i></a>
+          <a href="mailto:info@tigermartialarts.com" style="color: #fff; margin: 0 10px;"><i class="fas fa-envelope"></i></a>
+        </div>
+   
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- JavaScript Logic for Timetable -->
+  <script>
+    const schedule = {
+      monday: {
+        name: "Monday",
+        classes: [
+          ["06:00–07:30", "Jiu-jitsu"],
+          ["08:00–10:00", "Muay Thai"],
+          ["10:30–12:00", "Private Tuition"],
+          ["13:00–14:30", "Open Mat"],
+          ["15:00–17:00", "Kids Jiu-jitsu"],
+          ["17:30–19:00", "Karate"],
+          ["19:00–21:00", "Jiu-jitsu"]
+        ]
+      },
+      tuesday: {
+        name: "Tuesday",
+        classes: [
+          ["06:00–07:30", "Karate"],
+          ["08:00–10:00", "Private Tuition"],
+          ["10:30–12:00", "Private Tuition"],
+          ["13:00–14:30", "Open Mat"],
+          ["15:00–17:00", "Kids Judo"],
+          ["17:30–19:00", "Muay Thai"],
+          ["19:00–21:00", "Judo"]
+        ]
+      },
+      wednesday: {
+        name: "Wednesday",
+        classes: [
+          ["06:00–07:30", "Judo"],
+          ["08:00–10:00", "Private Tuition"],
+          ["10:30–12:00", "Private Tuition"],
+          ["13:00–14:30", "Open Mat"],
+          ["15:00–17:00", "Kids Karate"],
+          ["17:30–19:00", "Judo"],
+          ["19:00–21:00", "Jiu-jitsu"]
+        ]
+      },
+      thursday: {
+        name: "Thursday",
+        classes: [
+          ["06:00–07:30", "Jiu-jitsu"],
+          ["08:00–10:00", "Private Tuition"],
+          ["10:30–12:00", "Private Tuition"],
+          ["13:00–14:30", "Open Mat"],
+          ["15:00–17:00", "Kids Jiu-jitsu"],
+          ["17:30–19:00", "Jiu-jitsu"],
+          ["19:00–21:00", "Karate"]
+        ]
+      },
+      friday: {
+        name: "Friday",
+        classes: [
+          ["06:00–07:30", "Muay Thai"],
+          ["08:00–10:00", "Jiu-jitsu"],
+          ["10:30–12:00", "Private Tuition"],
+          ["13:00–14:30", "Open Mat"],
+          ["15:00–17:00", "Kids Judo"],
+          ["17:30–19:00", "Muay Thai"],
+          ["19:00–21:00", "Private Tuition"]
+        ]
+      },
+      saturday: {
+        name: "Saturday",
+        classes: [
+          ["08:00–10:00", "Private Tuition"],
+          ["10:30–12:00", "Judo"],
+          ["13:00–14:30", "Karate"],
+          ["15:00–17:00", "Muay Thai"]
+        ]
+      },
+      sunday: {
+        name: "Sunday",
+        classes: [
+          ["08:00–10:00", "Private Tuition"],
+          ["10:30–12:00", "Karate"],
+          ["13:00–14:30", "Judo"],
+          ["15:00–17:00", "Jiu-jitsu"]
+        ]
+      }
+    };
+
+    function showDay(dayKey) {
+      const dayData = schedule[dayKey];
+      document.getElementById("day-header").innerText = dayData.name;
+      const body = document.getElementById("timetable-body");
+      body.innerHTML = "";
+      dayData.classes.forEach(([time, activity]) => {
+        const row = `<tr><td>${time}</td><td>${activity}</td></tr>`;
+        body.innerHTML += row;
+      });
+    }
+
+    // Default to Monday on load
+    window.onload = () => showDay('monday');
+  </script>
+
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+</body>
+</html>
